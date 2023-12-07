@@ -1,0 +1,53 @@
+<! DOCTYPE html> 
+<html> 
+<head>
+	<link rel="stylesheet" type="text/css" href-"styles.css">
+</head> 
+<body>
+	<h1>Завдання з CSS</h1>
+<div class="font-formatting">
+<h2>1. Форматування шрифту</h2>
+<p>Застосувати наступні стилі до цього тексту: </p>
+<ul>
+	<p style="font-family: Arial, sans-serif;">Це текст, до якого застосована зміна шрифту на Arial.</p>
+	<p style="font-size: 18px;">Це текст з розміром шрифту 18px.</p>
+	<p>Це <strong>напівжирний текст</strong>.</p>
+
+</ul> 
+</div>
+
+
+<div class="text-formatting">
+<h2>2. форматування тексту</h2>
+<p>Застосувати наступні стилі до цього тексту: </р>
+<ul>
+	<p style="color: #0000FF;">Цей текст буде синього кольору.</p>
+	<p style="text-align: center;">Цей текст буде вирівняний по центру.</p>
+	<p style="line-height: 1.5;">Цей текст має міжрядковий інтервал 1.5.</p>
+</ul> 
+</div>
+
+
+<div class="spacing">
+<h2>3. Внутрішні та зовнішні відступи</h2> 
+<p>Створити блок з текстом і застосувати наступні стилі: </р>
+<ul>
+	<p style="padding: 20px;">Цей текст має внутрішній відступ 20px з усіх сторін.</p>
+	<p style="margin: 10px;">Цей текст має зовнішній відступ 10px з усіх сторін.</p>
+</ul> 
+</div>
+
+
+<div class="border">
+<h2>4. Рамки</h2>
+<p>Додати рамку блоку і застосувати наступні стилі: </р>
+<ul>
+<p style="border-style: dotted;">Цей текст має пунктирну рамку.</p>
+<p style="border-style: dotted; border-color: #EE0000;">Цей текст має червону пунктирну рамку.</p>
+<p style="border-style: dotted; border-color: #EE0000; border-width: 20px;">Цей текст має червону пунктирну рамку товщиною 20px.</p>
+<p style="border-style: dotted; border-color: #EE0000; border-width: 10px; border-radius: 10px;">Цей текст має червону пунктирну рамку з заокругленими кутами радіусом 10px. Але ця рамка має уменьшений вигляд для того щоб було зрозуімло що заокруглення є
+</p> 
+</ul> 
+</div> 
+</body> 
+</html>
