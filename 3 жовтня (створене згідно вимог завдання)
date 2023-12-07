@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Продовольчий магазин "Щастя"</title>
+    <style>
+        body {
+            background-image: url('background.jpg');
+            background-size: cover;
+            background-repeat: no-repeat;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #FFA500;
+            text-align: center;
+            padding: 20px;
+        }
+        
+        h1 {
+            color: #fff;
+        }
+        
+        nav {
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        
+        nav li {
+            display: inline;
+            margin: 0 20px;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #000;
+            font-weight: bold;
+        }
+        
+        main {
+            padding: 20px;
+            text-align: center;
+        }
+        
+        img {
+            max-width: 100%;
+            height: auto;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Ласкаво просимо до магазину "Щастя"</h1>
+        <nav>
+            <ul>
+                <li><a href="#products">Продукти</a></li>
+                <li><a href="#specials">Спеціальні пропозиції</a></li>
+                <li><a href="#contact">Контакти</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="products">
+            <h2>Наші продукти</h2>
+            <p>Ми пропонуємо великий вибір продуктів найвищої якості. Переконайтеся самі побувавши в нашому магазині! Ми раді на вас чекати! </p>
+            <img src="https://agroexpert.ua/wp-content/uploads/2020/03/303129.jpg" alt="Продукти">
+          <p> Пропонуємо різноманітні товари на ваш смак</p>
+        </section>
+
+        <section id="specials">
+            <h2>Спеціальні пропозиції</h2>
+            <p>Заходьте до нас щотижня та отримуйте знижки на обрані товари.</p>
+            <img src="https://thumb.tildacdn.com/tild3137-6462-4264-b533-663732393137/-/format/webp/Pilli_.png" alt="Спеціальні пропозиції">
+        </section>
+      
+       <section class="form">
+        <h2>Зв'яжіться з нами</h2>
+        <form>
+            <label for="name">Ваше ім'я:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Ваш Email:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Відправити</button>
+        </form>
+    </section>
+      
+       <section class="table">
+        <h2>Таблиця з даними</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Iм'я</th>
+                    <th>Вік</th>
+                    <th>Місто</th>
+                  <th>Телефон</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Іван</td>
+                    <td>25</td>
+                    <td>Київ</td>
+                  <td>+38(095)555 77 23</td>
+                </tr>
+                <tr>
+                    <td>Марія</td>
+                    <td>30</td>
+                    <td>Львів</td>
+                  <td>+38(066)548 77 13</td>
+                </tr>
+                <tr>
+                    <td>Петро</td>
+                    <td>22</td>
+                    <td>Одеса</td>
+                  <td>+38(063)555 40 23</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+    </main>
+</body>
+</html>
